@@ -40,7 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Abstractions\Artist.cs" />
+    <Compile Include="Abstractions\ImageReference.cs" />
+    <Compile Include="DataQuality.cs" />
+    <Compile Include="IBasicDiscogsApi.cs" />
+    <Compile Include="Abstractions\Label.cs" />
+    <Compile Include="Abstractions\Master.cs" />
+    <Compile Include="Abstractions\Release.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
