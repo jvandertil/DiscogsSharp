@@ -1,4 +1,4 @@
-﻿namespace DiscogsSharp
+namespace DiscogsSharp.Enums
 {
     public enum DataQuality
     {

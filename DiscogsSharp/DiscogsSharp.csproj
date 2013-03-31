@@ -41,8 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstractions\Artist.cs" />
+    <Compile Include="Abstractions\Genre.cs" />
     <Compile Include="Abstractions\ImageReference.cs" />
-    <Compile Include="DataQuality.cs" />
+    <Compile Include="Enums\DataQuality.cs" />
+    <Compile Include="Enums\Genres.cs" />
     <Compile Include="IBasicDiscogsApi.cs" />
     <Compile Include="Abstractions\Label.cs" />
     <Compile Include="Abstractions\Master.cs" />
